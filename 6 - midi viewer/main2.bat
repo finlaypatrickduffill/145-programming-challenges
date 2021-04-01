@@ -1,2 +1,0 @@
-gcc "C:\Documents and Settings\User\Desktop\Proj\programming challenges\midi player\main.c" -o"C:\Documents and Settings\User\Desktop\Proj\programming challenges\midi player\main2.exe" -w
-chdir "C:\Documents and Settings\User\Desktop\Proj\programming challenges\midi player"
