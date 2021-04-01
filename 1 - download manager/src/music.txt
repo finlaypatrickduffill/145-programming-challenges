@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="style.css" src="style.css">
+	<title>Static Internet</title>  
+</head>
+<body>
+<div style="width:100%;">
+	<script>
+            window.onload = function() {
+                var labels = document.getElementsByTagName('label');
+                for (var i = 0; i < labels.length; i++) {
+                    disableSelection(labels[i]);
+                }
+            };
+            function disableSelection(element) {
+                if (typeof element.onselectstart != 'undefined') {
+                    element.onselectstart = function() { return false; };
+                } else if (typeof element.style.MozUserSelect != 'undefined') {
+                    element.style.MozUserSelect = 'none';
+                } else {
+                    element.onmousedown = function() { return false; };
+                }
+            }
+        </script>
+		<label>
+		<div style="
+		width:100%;
+		padding-top:4px;
+		padding-bottom:4px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;">
+			<img src="stamp.png" style="
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			float:left;">
+			<label>
+	<h1 style="color:black;
+	font-size:11px; margin-top:50px;
+	float:left;"> 
+	STATICINTERNETFICTION<br>
+	finlay.duffill@gmail.com
+	</h1>
+	</label>
+			</div>
+		</label>
+	</div>
+	<div style="width:100%; margin-top:5px; float:right;">
+		<table width="50%" style="margin-left:20px;" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left" style="font-family:verdana,arial,sans-serif; font-size:10px;">
+<a href="index.html">Updates</a>&nbsp;&nbsp;
+<a href="music.html">Music</a>&nbsp;&nbsp;
+<a href="software.html">Software</a>&nbsp;&nbsp;
+<a href="drawings.html">Draw</a>&nbsp;&nbsp;
+</td>
+</tr>
+</table>
+</span>
+<hr>
+</div>
+	<html lang="en">
+	<span style="color:white; font-size:13px; "></span>
+	<div style="background-color:white; 
+		width:100%;
+		margin-top:-8px;
+		height:1000px;
+		padding-bottom:4px;
+		float:right;">
+	<label>
+<p style="font-family:verdana,arial,sans-serif; color:#535353; margin-left:18px; font-size:13px;"> <u><b>_Music__________</b>
+</u>
+</p>
+<table table width="95%" style=" padding:0; margin-left:15px; color:#535353; font-family:verdana,arial,sans-serif; font-size:10px;">
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>0003.WAV</b> - Part 0003 of 1000.
+   </b>
+   <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/0003.wav">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>0018.WAV</b> - Part 0018 of 1000.
+    <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/0018.wav">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>0021.WAV</b> - Part 0021 of 1000.
+    <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/0021.wav">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>JOZU.MP3</b> - For an animation by an alias "Jozu".
+    <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/jozu3.mp3">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>RUNNING.MP3</b> - From a video game I'm helping to design.
+    <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/running.mp3">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+  <tr>
+    <td style="min-width:80px;text-align:left; font-size:10px;"><b>FANFARE2.MP3</b> - Misc OpenMPT.
+    <span style="float:right; font-family:arial,sans-serif"> <b><a href="music/fanfare2.mp3">DOWNLOAD &#9684</a></b></td> </span>
+  </tr>
+</table>
+	</div>
+</body>
+</html>
