@@ -1,2 +1,0 @@
-mingw32-gcc.exe -Wall -g -w -IC:\sdl_projects\SDL2-2.0.14\i686-w64-mingw32\include\SDL2 -IC:\sdl_projects\finmarketsim\main -IC:\sdl_projects\finmarketsim\main -c C:\sdl_projects\finmarketsim\main\main.c -o obj\Debug\main.o
-g++.exe -mwindows -LC:\sdl_projects\SDL2-2.0.14\i686-w64-mingw32\lib -L"C:\Program Files\CodeBlocks\MinGW\lib\gcc\mingw32\5.1.0" -o bin\Debug\DONUTSTEEL.exe obj\Debug\main.o  -lmingw32 -lSDL2main -lSDL2
